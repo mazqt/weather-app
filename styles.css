@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6835012235034.560a8e5be9e14.jpg");
+  background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: 35vh;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 1vh;
+  width: 35vw;
+}
+
+.underline {
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}

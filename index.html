@@ -7,13 +7,33 @@
   </head>
 
   <body>
-    <h1>Hello!</h1>
-    <div id="weather">
+    <h1>Weatherify</h1>
+    <div id="content">
+      <label>Display the temperature in:</label>
+      <select name="tempType" id="tempType">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
       <form id="search">
         <label>Search the weather for your city!</label><br />
-        <input type="text" name="city" id="city" /><br />
+        <input type="text" name="city" id="city" value="New York City" /><br />
         <button type="button" name="submit" id="submit">Search!</button>
       </form>
+      <p id="error" style="display: none"></p>
+      <br />
+      <div id="weather">
+        <p>Weather:</p>
+        <p id="type" class="underline"></p>
+        <p>Temp:</p>
+        <p id="temp" class="underline"></p>
+        <p>Feels like:</p>
+        <p id="feels_like" class="underline"></p>
+        <p>Country:</p>
+        <p id="country"></p>
+        <br />
+      </div>
+      <img id="image" />
     </div>
     <script src="main.js"></script>
   </body>
