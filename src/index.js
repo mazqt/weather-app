@@ -1,5 +1,4 @@
 import getWeather from "./weather.js";
-import addSearch from "./input.js";
+import input from "./input.js";
 
-getWeather("malmö");
-addSearch();
+input.addSearch();
